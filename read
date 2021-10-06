@@ -1,4 +1,30 @@
+ex07
+
+https://hiseon.me/c/diff-patch/
+
+diff - 두 파일간의 차이를 출력
+patch - 패치 파일을 적용하거나, 패치를 제거에 사용
+b version - patch file = a version
+
+a version + patch file = b version
+b version - a version = patch file
+
+patch -p0 -R < main.patch
+
 ex08
 
 -name 주어진 이름의 파일이나 디렉터리를 찾는다.  find -name '*.txt'
 -type 지정한 파일 유형을 찾음. 
+f: 일반파일
+
+\ 이스케이프 문자
+특수문자는 별도 처리하도록 사전정의되어 있음. 일반 문자로 인식해야 함.
+
+ex09 
+
+file 명령어를 통해 파일의 종류를 확인할 수 있음.
+지정된 파일이 test or binary 인지
+
+확인과정 1.filesystem test 2.magictest 3.language test
+
+
