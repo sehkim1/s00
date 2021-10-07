@@ -1,3 +1,30 @@
+ex03
+
+커버로스 트로토콜 - 티켓 기반의 컴퓨터 네트워크 인증 프로토콜
+티켓 - 유저 아이디를 안전하게 전달하는데 사용되는 정보 패킷
+
+ex04
+
+-m 콤마로 구분하여 출력
+-t 수정된 시간 기준으로 정렬
+-U 생성일 기준으로 정렬 (t와 같이 사용)
+-p 디렉토리에 / 추
+
+
+ex05
+
+git log - 커밋 히스토리 검색
+%H 풀 커밋 해시
+--pretty옵션  형식 지정
+format - 형식
+
+ex06
+
+git ls-files git 파일의 리스트 검색
+-o 추적되지 않는 파일 표시
+-i 출력에서 무시된 파일 (exclude 옵션을 같이 사용)
+--exclude-standard 표준 git 제외를 추가해줌
+
 ex07
 
 https://hiseon.me/c/diff-patch/
@@ -26,5 +53,4 @@ file 명령어를 통해 파일의 종류를 확인할 수 있음.
 지정된 파일이 test or binary 인지
 
 확인과정 1.filesystem test 2.magictest 3.language test
-
 
